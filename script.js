@@ -1,10 +1,10 @@
 const quizData = [
 {
 questionNumber: 1,
-question: "What is the capital of France?",
-choices: ["London", "Paris", "Madrid", "Berlin"],
-correctAnswer: "b",
-image: "https://public.blenderkit.com/thumbnails/assets/60755b388d954d808a6f9a598c3c0255/files/thumbnail_503ca417-8020-4f1f-880f-0ef2431ed7f2.jpg.256x256_q85.jpg.webp?webp_generated=1649972775"
+question: "What is the implied wage and rental rates paid by Creekwood L&L?",
+choices: ["w = $20/hour, r = $10/hour", "w = $40/hour, r = $20/hour", "w = $20/hour, r = $40/hour", "w = $10/hour, r = $20/hour"],
+correctAnswer: "d",
+image: "images/unit 2/2.27 Q1.png"
 },
 {
 questionNumber: 2,
