@@ -1,42 +1,52 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
   <head>
-    <title>Multiple Choice Quiz</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <title>ECON Questions</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+    <script src="/assets/js/main.js"></script>
   </head>
   <body>
     <header>
       <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; width: 100%;">
         <div style="display: flex; align-items: center; justify-content: center; flex: 1;">
           <div style="display: flex; align-items: center;">
-            
-            <h1 style="font-size: 28px; font-weight: bold; margin: 5;">   ECON 340</h1>
+            <h1 style="font-size: 28px; font-weight: bold; margin: 0;">ECON Questions</h1>
           </div>
-        </div>
-        <div class="about-container">
-          <a href="about.html">Home</a>
         </div>
       </div>
     </header>
-    <div id="quiz">
-      <h1 id="question-number"></h1>
-      <h3 id="question"></h3>
-      <img id="question-image">
-      <form>
-        <input type="radio" id="choice-a" name="answer" value="a"><label for="choice-a">a. </label><br>
-        <input type="radio" id="choice-b" name="answer" value="b"><label for="choice-b">b. </label><br>
-        <input type="radio" id="choice-c" name="answer" value="c"><label for="choice-c">c. </label><br>
-        <input type="radio" id="choice-d" name="answer" value="d"><label for="choice-d">d. </label><br>
-        <br>
-      </form>
-      <button id="prev-btn">Previous</button>
-      <button id="submit-btn">Submit</button>
-      <button id="next-btn">Next</button>
-      <p id="result"></p>
-    </div>
-    <footer>
+    <div class="subject-header">
+  <h2>Choose a Subject:</h2>
+</div>
+<main>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; width: 100%; margin: 0 auto;">
+      <div class="subject-container" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center;">
+        <div class="subject-box math">
+          <a href="pages (html)/course_pages/math.html">
+            <img src="images/icons/Math_Icon.jpg" alt="Unit 1">
+          </a>
+          <div class="subject-text">
+            <h3>Unit 1</h3>
+          </div>
+        </div>
+
+        <div class="subject-box econ">
+          <a href="pages (html)/course_pages/econ.html">
+            <img src="images/icons/Economics_Icon.jpg" alt="Unit 2">
+          </a>
+          <div class="subject-text">
+            <h3>Unit 2</h3>
+          </div>
+        </div>
+
+        </div>
+      </div>
+      </div>
+      
+</main>
+<footer>
       <p>&copy; Miller Kodish</p>
     </footer>
-    <script src="script.js"></script>
   </body>
 </html>
