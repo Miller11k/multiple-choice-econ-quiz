@@ -8,8 +8,8 @@ image: "../../images/unit 2/2.27 Q1.png"
 },
 {
 questionNumber: 2,
-question: "What is the capital of Japan?",
-choices: ["Tokyo", "Kyoto", "Osaka", "Hiroshima"],
+question: "What is the capital of France?",
+choices: ["Paris", "Kyoto", "Osaka", "Hiroshima"],
 correctAnswer: "a",
 image: ""
 }
