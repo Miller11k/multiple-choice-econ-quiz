@@ -5,22 +5,30 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <div id="quiz">
-      <h1 id="question-number"></h1>
-      <h3 id="question"></h3>
-      <img id="question-image">
-      <form>
-        <input type="radio" id="choice-a" name="answer" value="a"><label for="choice-a">a. </label><br>
-        <input type="radio" id="choice-b" name="answer" value="b"><label for="choice-b">b. </label><br>
-        <input type="radio" id="choice-c" name="answer" value="c"><label for="choice-c">c. </label><br>
-        <input type="radio" id="choice-d" name="answer" value="d"><label for="choice-d">d. </label><br>
-        <br>
-      </form>
-      <button id="prev-btn">Previous</button>
-      <button id="submit-btn">Submit</button>
-      <button id="next-btn">Next</button>
-      <p id="result"></p>
-    </div>
-    <script src="/Unit_2/Unit_2.js"></script>
+    <header>
+      <h1>Quiz App</h1>
+    </header>
+    <main>
+      <div id="quiz">
+        <h1 id="question-number"></h1>
+        <h3 id="question"></h3>
+        <img id="question-image">
+        <form>
+          <input type="radio" id="choice-a" name="answer" value="a"><label for="choice-a">a. </label><br>
+          <input type="radio" id="choice-b" name="answer" value="b"><label for="choice-b">b. </label><br>
+          <input type="radio" id="choice-c" name="answer" value="c"><label for="choice-c">c. </label><br>
+          <input type="radio" id="choice-d" name="answer" value="d"><label for="choice-d">d. </label><br>
+          <br>
+        </form>
+        <button id="prev-btn">Previous</button>
+        <button id="submit-btn">Submit</button>
+        <button id="next-btn">Next</button>
+        <p id="result"></p>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2023 Quiz App</p>
+    </footer>
+    <script src="../assets/js/Unit_2.js"></script>
   </body>
 </html>
