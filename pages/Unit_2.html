@@ -1,43 +1,26 @@
+<!DOCTYPE html>
 <html>
-    <head>
-    <title>ECON 340 Unit 2 Questions</title>
-    <link rel="stylesheet" type="text/css" href="../assets/css/quiz.css">
-    <script src="/Unit_2/Unit_2.js"></script>
+  <head>
+    <title>Multiple Choice Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <header>
-      <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; width: 100%;">
-        <div style="display: flex; align-items: center; justify-content: center; flex: 1;">
-          <div style="display: flex; align-items: center;">
-            
-            <h1 style="font-size: 28px; font-weight: bold; margin: 5;">   ECON 340</h1>
-          </div>
-        </div>
-        <div class="about-container">
-          <a href="/multiple-choice-econ-quiz/index.html">Home</a>
-        </div>
-      </div>
-    </header>
     <div id="quiz">
-      <h1 id="question-number">Question 1</h1>
-      <h3 id="question">What is the implied wage and rental rates paid by Creekwood L&amp;L? Crekwood is currently minimizing costs at $400 per hour.</h3>
-      <img id="question-image" src="../../images/unit 2/2.27 Q1.png" alt="What is the implied wage and rental rates paid by Creekwood L&amp;L? Crekwood is currently minimizing costs at $400 per hour.">
+      <h1 id="question-number"></h1>
+      <h3 id="question"></h3>
+      <img id="question-image">
       <form>
-        <input type="radio" id="choice-a" name="answer" value="a"><label for="choice-a">w = $20/hour, r = $10/hour</label><br>
-        <input type="radio" id="choice-b" name="answer" value="b"><label for="choice-b">w = $40/hour, r = $20/hour</label><br>
-        <input type="radio" id="choice-c" name="answer" value="c"><label for="choice-c">w = $20/hour, r = $40/hour</label><br>
-        <input type="radio" id="choice-d" name="answer" value="d"><label for="choice-d">w = $10/hour, r = $20/hour</label><br>
+        <input type="radio" id="choice-a" name="answer" value="a"><label for="choice-a">a. </label><br>
+        <input type="radio" id="choice-b" name="answer" value="b"><label for="choice-b">b. </label><br>
+        <input type="radio" id="choice-c" name="answer" value="c"><label for="choice-c">c. </label><br>
+        <input type="radio" id="choice-d" name="answer" value="d"><label for="choice-d">d. </label><br>
         <br>
       </form>
-      <input type="button" id="prev-btn" value="Previous">
-      <input type="button" id="submit-btn" value="Submit">
-      <input type="button" id="next-btn" value="Next">
-
+      <button id="prev-btn">Previous</button>
+      <button id="submit-btn">Submit</button>
+      <button id="next-btn">Next</button>
       <p id="result"></p>
     </div>
-    <footer>
-      <p>© Miller Kodish</p>
-    </footer>
-  
-
-</body></html>
+    <script src="/Unit_2/Unit_2.js"></script>
+  </body>
+</html>
