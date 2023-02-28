@@ -1,138 +1,99 @@
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0.5rem 1rem;
+const quizData = [
+{
+questionNumber: 1,
+question: "What is the implied wage and rental rates paid by Creekwood L&L? Crekwood is currently minimizing costs at $400 per hour.",
+choices: ["w = $20/hour, r = $10/hour", "w = $40/hour, r = $20/hour", "w = $20/hour, r = $40/hour", "w = $10/hour, r = $20/hour"],
+correctAnswer: "d",
+image: "images/unit 2/2.27 Q1.png"
+},
+{
+questionNumber: 2,
+question: "What is the capital of Japan?",
+choices: ["Tokyo", "Kyoto", "Osaka", "Hiroshima"],
+correctAnswer: "a",
+image: ""
+}
+];
+
+let currentQuestionIndex = 0;
+
+const questionNumberEl = document.getElementById("question-number");
+const questionEl = document.getElementById("question");
+const choiceAEls = document.getElementById("choice-a");
+const choiceBEls = document.getElementById("choice-b");
+const choiceCEls = document.getElementById("choice-c");
+const choiceDEls = document.getElementById("choice-d");
+const resultEl = document.getElementById("result");
+const imageEl = document.getElementById("question-image");
+
+function loadQuestion() {
+const currentQuestion = quizData[currentQuestionIndex];
+questionNumberEl.innerHTML = "Question " + currentQuestion.questionNumber;
+questionEl.innerHTML = currentQuestion.question;
+choiceAEls.nextElementSibling.textContent = currentQuestion.choices[0];
+choiceBEls.nextElementSibling.textContent = currentQuestion.choices[1];
+choiceCEls.nextElementSibling.textContent = currentQuestion.choices[2];
+choiceDEls.nextElementSibling.textContent = currentQuestion.choices[3];
+
+if (currentQuestion.image === "") {
+imageEl.src = "";
+imageEl.alt = "";
+} else {
+imageEl.src = currentQuestion.image;
+imageEl.alt = currentQuestion.question;
+}
 }
 
-
-.about-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: auto;
+function resetAnswer() {
+const radios = document.getElementsByName("answer");
+for (let i = 0; i < radios.length; i++) {
+radios[i].checked = false;
+}
 }
 
-.about-container a {
-  color: #333;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-  font-size: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 0.2rem;
+function checkAnswer() {
+const currentQuestion = quizData[currentQuestionIndex];
+const radios = document.getElementsByName("answer");
+let answer = undefined;
+for (let i = 0; i < radios.length; i++) {
+if (radios[i].checked) {
+answer = radios[i].value;
+break;
+}
+}
+if (answer === undefined) {
+resultEl.innerHTML = "Please select an answer.";
+return;
+}
+if (answer === currentQuestion.correctAnswer) {
+resultEl.innerHTML = "Correct!";
+} else {
+resultEl.innerHTML = "Incorrect.";
+}
 }
 
-.about-container a:hover {
-  background-color: rgba(0,0,0,0.5);
+function nextQuestion() {
+resetAnswer();
+currentQuestionIndex++;
+if (currentQuestionIndex >= quizData.length) {
+currentQuestionIndex = quizData.length - 1;
+}
+loadQuestion();
+resultEl.innerHTML = "";
 }
 
-#quiz {
-  margin: auto;
-  width: 50%;
-  text-align: center;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+function previousQuestion() {
+resetAnswer();
+currentQuestionIndex--;
+if (currentQuestionIndex < 0) {
+currentQuestionIndex = 0;
+}
+loadQuestion();
+resultEl.innerHTML = "";
 }
 
-h1 {
-  margin-top: 0;
-}
+document.getElementById("prev-btn").addEventListener("click", previousQuestion);
+document.getElementById("submit-btn").addEventListener("click", checkAnswer);
+document.getElementById("next-btn").addEventListener("click", nextQuestion);
 
-h3 {
-  margin-top: 20px;
-}
-
-input[type="radio"] {
-  display: none;
-}
-
-label {
-  display: inline-block;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  padding: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-label:hover {
-  background-color: #f2f2f2;
-}
-
-input[type="radio"]:checked + label {
-  background-color: #4CAF50;
-  color: white;
-}
-
-input[type="button"],
-button {
-  margin-top: 20px;
-  background-color: #4CAF50;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-input[type="button"]:hover,
-button:hover {
-  background-color: #45a049;
-}
-
-#prev-btn {
-  float: left;
-}
-
-#submit-btn {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#next-btn {
-  float: right;
-}
-
-#result {
-  font-size: 1.2rem;
-  margin-top: 20px;
-  font-weight: bold;
-}
-
-#question-image {
-  max-width: 100%;
-  height: auto;
-  margin: 20px 0;
-  border-radius: 5px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-}
-
-footer {
-  text-align: center;
-  padding: 1rem;
-}
-
-.footer-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer-container p {
-  font-size: 1rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 0.2rem;
-}
-
-.empty-row {
-  height: 50px;
-}
+loadQuestion();
