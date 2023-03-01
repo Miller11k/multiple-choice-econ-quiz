@@ -1,16 +1,15 @@
 const quizData = [
 {
 questionNumber: 1,
-question: "What is the implied wage and rental rates paid by Creekwood L&L? Crekwood is currently minimizing costs at $400 per hour.",
-choices: ["w = $20/hour, r = $10/hour", "w = $40/hour, r = $20/hour", "w = $20/hour, r = $40/hour", "w = $10/hour, r = $20/hour"],
+question: "Price has 3 functions in a market. Which of the following is NOT among them?",
+choices: ["Ration Demand", "Signal producers to produce more or less of goods.", "Signal the quality of goods to consumers.", "Signal producers to enter or exit markets."],
 correctAnswer: "d",
-image: "../../images/unit 2/2.27 Q1.png"
 },
 {
 questionNumber: 2,
-question: "What is the capital of France?",
-choices: ["Paris", "Kyoto", "Osaka", "Hiroshima"],
-correctAnswer: "a",
+question: "Which of the following is NOT a property of indifference curves for two goods?",
+choices: ["Downwards sloping", "Bowed toward the origin.", "Increase utility with proximity to origin", "Do not intersect one another"],
+correctAnswer: "c",
 image: ""
 }
 ];
