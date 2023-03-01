@@ -36,10 +36,8 @@ choiceDEls.nextElementSibling.textContent = currentQuestion.choices[3];
 
 if (currentQuestion.image === "") {
 imageEl.src = "";
-imageEl.alt = "";
 } else {
 imageEl.src = currentQuestion.image;
-imageEl.alt = currentQuestion.question;
 }
 }
 
