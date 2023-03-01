@@ -45,13 +45,129 @@ const quizData = [
     correctAnswer: "a",
     image: ""
   },
+  
    {
     questionNumber: 7,
-    question: "Who is Consumer 2?",
-    choices: ["Joey", "Phoebe", "Rachel", "Monica"],
+    question: "If the goal is to model utility using a power function, does the function below 'work'? In particular does it have the properties of positive AND diminishing marginal utility? ",
+    choices: ["Yes", "No"],
     correctAnswer: "b",
     image: ""
+  },
+  
+  {
+    questionNumber: 8,
+    question: "The utility function below is:",
+    choices: ["Not homogeneous", "Homogeneous of degree (X+Y)", "Homogeneous of degree (a+b)", "Homogeneous of degree (1-a-b)"],
+    correctAnswer: "a",
+    image: ""
+  },
+  
+  {
+    questionNumber: 9,
+    question: "If you multiplied both exponents in this utility function by 2, the MRS would be the same (as before multiplying exponents):",
+    choices: ["True", "False"],
+    correctAnswer: "a",
+    image: ""
+  },
+  
+  {
+    questionNumber: 10,
+    question: "If you look at two points in a goods space (like the one below) that both give the same level of utility, points lying on a straight line connecting them PROBABLY:",
+    choices: ["Lie on a higher indifference curve than the two points", "Lie on the same indifference curve as the two points", "Lie on a lower indifference curve than the two points"],
+    correctAnswer: "b",
+    image: ""
+  },
+  
+  {
+    questionNumber: 11,
+    question: "In a good space with hand soap on the horizontal and laundry detergent on the vertical, a person currently has a bundle where the |MRS| is greater than the |price ratio|. This situation reccomends:",
+    choices: ["Buying more detergent and less hand soap", "Buying more hand soap and less detergent", "Continue to consume this bundle since utility is maximized"],
+    correctAnswer: "a",
+    image: ""
+  },
+  
+  {
+    questionNumber: 12,
+    question: "The person on the document camera gets utility from homemade pies, which consist of a filling (made of eggs, G) and a crust (C). With the given prices and income, how many eggs will the person buy, if (s)he is maximizing utility?",
+    choices: ["10", "12", "25/3", "120"],
+    correctAnswer: "a",
+    image: ""
+  },
+  
+  {
+    questionNumber: 13,
+    question: "Refer to Problem 3.3 below. How much peanut butter and jelly will David buy with his $3/month allowance (if he maximizes his utiliity)?",
+    choices: ["15 oz. jelly; 15 oz. peanut butter.", "15 oz. jelly; 30 oz. peanut butter.", "30 oz. jelly; 60 oz. peanut butter.", "30 oz. jelly; 30 oz. peanut butter."],
+    correctAnswer: "a",
+    image: ""
+  },
+  
+  {
+    questionNumber: 14,
+    question: "Refer to Problem 3.3 below. Suppose the price of jelly rises to $0.15/oz. By how much would David's allowance have to rise to compensate for the increase in the price of jelly?",
+    choices: ["$0.60", "$0.75", "$1.00", "$3.00"],
+    correctAnswer: "a",
+    image: ""
+  },
+  
+  {
+    questionNumber: 15,
+    question: "If the prices (P) and David's income (M) were assumed to be variable, what would David's demand function for jelly be? Note: in the following, assume 0<a<1.",
+    choices: ["J = (aM)/(P_J)", "J = (aM)/(P_J + 2P_B)", "J = (M)/(P_J + 2P_B)", "J = (aM)/(2P_J + P_B)"],
+    correctAnswer: "a",
+    image: ""
+  },
+  
+  {
+    questionNumber: 16,
+    question: "The (own) price elasticity of David's demand is -1, the same as with the Cobb-Douglas demand function:",
+    choices: ["True", "False"],
+    correctAnswer: "a",
+    image: ""
+  },
+  
+  {
+    questionNumber: 17,
+    question: "The CES 'family' (perfect sub's, comp's, C-D) is always homothetic. 'This means that there can be no inferior goods in these utility functions.':",
+    choices: ["True", "False"],
+    correctAnswer: "a",
+    image: ""
+  },
+  
+  {
+    questionNumber: 18,
+    question: "What is the income elasticity of David's demand for Jelly?",
+    choices: ["1/(P_J + 2P_B)", "1", "1/3(P_J + 2P_B)", "1/3"],
+    correctAnswer: "a",
+    image: ""
+  },
+  
+  
+  {
+    questionNumber: 19,
+    question: "According to the Engle Curve graph, above income M 'bar', this good is:",
+    choices: ["Normal", "Inferior", "A Luxury"],
+    correctAnswer: "a",
+    image: ""
+  },
+  
+  {
+    questionNumber: 20,
+    question: "This goods space ({X, Y}, on below) is showing:",
+    choices: ["A price increase for a normal good", "A price decrease for a normal good", "A price increase for an inferior good", "A price decrease for an inferior good"],
+    correctAnswer: "a",
+    image: ""
+  },
+  
+  {
+    questionNumber: 21,
+    question: "This goods space ({X, Y}, below) is showing:",
+    choices: ["A price increase with one normal and one inferior good.", "A price increase with two normal goods.", "A price increase with two inferior goods", "A price decrease with one normal and one inferior good"],
+    correctAnswer: "a",
+    image: ""
   }
+  
+  
 ];
 
 let currentQuestionIndex = 0;
