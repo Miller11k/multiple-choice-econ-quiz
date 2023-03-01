@@ -6,13 +6,24 @@ choices: ["w = $20/hour, r = $10/hour", "w = $40/hour, r = $20/hour", "w = $20/h
 correctAnswer: "d",
 image: "/multiple-choice-econ-quiz/images/unit 2/2.27 Q1.png"
 },
+  
 {
 questionNumber: 2,
-question: "What is the capital of Japan?",
-choices: ["Tokyo", "Kyoto", "Osaka", "Hiroshima"],
+question: "In the function below, what is the short run Total Cost Function, TC(Q)?",
+choices: ["25L + 100K", "((1/25)*Q^2) + 10,000", "(1/25)*Q^2", "((525)*Q^2) + 10,000"],
+correctAnswer: "a",
+image: ""
+},
+  
+{
+questionNumber: 3,
+question: "Refer to the problem below. In the long run, the Marginal Cost function for this firm will be:",
+choices: ["Constant", "Upward-Sloping and Linear", "Upward-Sloping and Convex", "Downward Sloping"],
 correctAnswer: "a",
 image: ""
 }
+  
+  
 ];
 
 let currentQuestionIndex = 0;
