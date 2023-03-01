@@ -41,7 +41,7 @@ image: ""
 {
 questionNumber: 6,
 question: "Who is Consumer 1?",
-choices: ["Joey", "Phoebe"],
+choices: ["Joey", "Phoebe","",""],
 correctAnswer: "a",
 image: ""
 }
