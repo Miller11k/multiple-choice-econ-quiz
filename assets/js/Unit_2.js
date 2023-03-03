@@ -21,7 +21,15 @@ question: "Refer to the problem below. In the long run, the Marginal Cost functi
 choices: ["Constant", "Upward-Sloping and Linear", "Upward-Sloping and Convex", "Downward Sloping"],
 correctAnswer: "a",
 image: ""
-}
+},
+  
+  {
+    questionNumber: 4,
+    question: "Refer to Problem 3 below. 'This production function has diminishing marginal products of labor and capital.'",
+    choice: ["True", "False"],
+    correctAnswer: "a",
+    image: ""
+  }
   
   
 ];
