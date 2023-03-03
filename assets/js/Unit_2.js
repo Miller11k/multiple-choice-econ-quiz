@@ -4,7 +4,7 @@ questionNumber: 1,
 question: "What is the implied wage and rental rates paid by Creekwood L&L? Crekwood is currently minimizing costs at $400 per hour.",
 choices: ["w = $20/hour, r = $10/hour", "w = $40/hour, r = $20/hour", "w = $20/hour, r = $40/hour", "w = $10/hour, r = $20/hour"],
 correctAnswer: "d",
-image: "/multiple-choice-econ-quiz/images/unit 2/2.27 Q1.png"
+image: "/multiple-choice-econ-quiz/images/unit 2/2.27/Q1.png"
 },
   
 {
