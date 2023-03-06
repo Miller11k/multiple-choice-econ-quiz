@@ -11,8 +11,8 @@ image: "/multiple-choice-econ-quiz/images/unit 2/2.27/Q1.png"
 questionNumber: 2,
 question: "In the function below, what is the short run Total Cost Function, TC(Q)?",
 choices: ["25L + 100K", "((1/25)*Q^2) + 10,000", "(1/25)*Q^2", "((525)*Q^2) + 10,000"],
-correctAnswer: "a",
-image: ""
+correctAnswer: "b",
+image: "/multiple-choice-econ-quiz/images/unit 2/3.3/3.3_Q1.png"
 },
   
 {
