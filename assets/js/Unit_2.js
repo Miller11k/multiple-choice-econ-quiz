@@ -23,13 +23,29 @@ correctAnswer: "a",
 image: ""
 },
   
-  {
-    questionNumber: 4,
-    question: "Refer to Problem 3 below. 'This production function has diminishing marginal products of labor and capital.'",
-    choice: ["True", "False"],
-    correctAnswer: "a",
-    image: ""
-  }
+{
+  questionNumber: 4,
+  question: "Refer to Problem 3 below. 'This production function has diminishing marginal products of labor and capital.'",
+  choice: ["True", "False"],
+  correctAnswer: "a",
+  image: ""
+},
+
+{
+questionNumber: 5,
+question: "Refer to the cost functions below. For what output level is the long run average cost minimized?",
+choices: ["Q = 125", "Q = 250", "Q = 375", "Q = 500"],
+correctAnswer: "a",
+image: ""
+},
+  
+{
+questionNumber: 6,
+question: "Today's question goes here",
+choices: ["a", "b", "c", "d"],
+correctAnswer: "a",
+image: ""
+}
   
   
 ];
