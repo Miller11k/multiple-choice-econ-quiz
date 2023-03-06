@@ -20,7 +20,7 @@ questionNumber: 3,
 question: "Refer to the problem below. In the long run, the Marginal Cost function for this firm will be:",
 choices: ["Constant", "Upward-Sloping and Linear", "Upward-Sloping and Convex", "Downward Sloping"],
 correctAnswer: "a",
-image: ""
+image: "/multiple-choice-econ-quiz/images/unit 2/3.3/3.3_Q1.png"
 },
 
 {
@@ -28,7 +28,7 @@ questionNumber: 4,
 question: "Refer to Problem 3 below. 'This production function has diminishing marginal products of labor and capital.'",
 choices: ["True", "False", "", ""],
 correctAnswer: "a",
-image: "/multiple-choice-econ-quiz/images/unit 2/3.3/3.3_Q0.png"
+image: "/multiple-choice-econ-quiz/images/unit 2/3.3/3.3_Q3.png"
 },
 
 {
@@ -36,7 +36,7 @@ questionNumber: 5,
 question: "Refer to the cost functions below. For what output level is the long run average cost minimized?",
 choices: ["Q = 125", "Q = 250", "Q = 375", "Q = 500"],
 correctAnswer: "a",
-image: "/multiple-choice-econ-quiz/images/unit 2/3.3/3.3_Q1.png"
+image: "/multiple-choice-econ-quiz/images/unit 2/3.3/3.3_Q3.png"
 },
   
 {
