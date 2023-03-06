@@ -26,7 +26,7 @@ image: ""
 {
   questionNumber: 4,
   question: "Refer to Problem 3 below. 'This production function has diminishing marginal products of labor and capital.'",
-  choice: ["True", "False"],
+  choice: ["True", "False","",""],
   correctAnswer: "a",
   image: ""
 },
