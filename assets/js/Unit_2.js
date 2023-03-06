@@ -36,7 +36,7 @@ questionNumber: 5,
 question: "Refer to the cost functions below. For what output level is the long run average cost minimized?",
 choices: ["Q = 125", "Q = 250", "Q = 375", "Q = 500"],
 correctAnswer: "a",
-image: ""
+image: "/multiple-choice-econ-quiz/images/unit 2/3.3/3.3_Q1.png"
 },
   
 {
