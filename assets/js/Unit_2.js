@@ -22,13 +22,13 @@ choices: ["Constant", "Upward-Sloping and Linear", "Upward-Sloping and Convex", 
 correctAnswer: "a",
 image: ""
 },
-  
+
 {
-  questionNumber: 4,
-  question: "Refer to Problem 3 below. 'This production function has diminishing marginal products of labor and capital.'",
-  choice: ["True", "False","",""],
-  correctAnswer: "a",
-  image: "/multiple-choice-econ-quiz/images/unit 2/3.3/3.3_Q0.png"
+questionNumber: 4,
+question: "Refer to Problem 3 below. 'This production function has diminishing marginal products of labor and capital.'",
+choices: ["True", "False", "", ""],
+correctAnswer: "a",
+image: "/multiple-choice-econ-quiz/images/unit 2/3.3/3.3_Q0.png"
 },
 
 {
