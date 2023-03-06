@@ -28,7 +28,7 @@ questionNumber: 4,
 question: "Refer to Problem 3 below. 'This production function has diminishing marginal products of labor and capital.'",
 choices: ["True", "False", "", ""],
 correctAnswer: "a",
-image: "/multiple-choice-econ-quiz/images/unit 2/3.3/3.3_Q3.png"
+image: "/multiple-choice-econ-quiz/images/unit 2/3.3/3.3_Q2.png"
 },
 
 {
