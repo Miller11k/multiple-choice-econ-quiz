@@ -19,7 +19,7 @@ const quizData = [
     question: "If a person's utility function is as shown below, what is the function for graphing the indifference curves (with X1 on the horizontal axis)?",
     choices: ["X2", "U/X2", "U/X1", "1/U"],
     correctAnswer: "c",
-    image: ""
+    image: "/multiple-choice-econ-quiz/images/unit 1/Graph_1.jpg"
   },
   
   {
@@ -27,7 +27,7 @@ const quizData = [
     question: "What value of 'x' maximizes (minimizes) the function below",
     choices: ["x = -b/2a", "x = (-b +/- SQRT(b^2-4ac))/2a", "x = 0", "x = (2ab^2 - b^2)/4a"],
     correctAnswer: "c",
-    image: ""
+    image: "/multiple-choice-econ-quiz/images/unit 1/Utility_Function_1.png"
   },
   
   {
@@ -41,9 +41,9 @@ const quizData = [
   {
     questionNumber: 6,
     question: "Who is Consumer 1?",
-    choices: ["Joey", "Phoebe", "Rachel", "Monica"],
+    choices: ["Joey", "Phoebe", "", ""],
     correctAnswer: "a",
-    image: ""
+    image: "/multiple-choice-econ-quiz/images/unit 1/Mac_and_Cheese.png"
   },
   
    {
@@ -59,7 +59,7 @@ const quizData = [
     question: "The utility function below is:",
     choices: ["Not homogeneous", "Homogeneous of degree (X+Y)", "Homogeneous of degree (a+b)", "Homogeneous of degree (1-a-b)"],
     correctAnswer: "a",
-    image: ""
+    image: "/multiple-choice-econ-quiz/images/unit 1/Utility_Function_2.png"
   },
   
   {
@@ -67,7 +67,7 @@ const quizData = [
     question: "If you multiplied both exponents in this utility function by 2, the MRS would be the same (as before multiplying exponents):",
     choices: ["True", "False"],
     correctAnswer: "a",
-    image: ""
+    image: "/multiple-choice-econ-quiz/images/unit 1/Utility_Function_4.png"
   },
   
   {
@@ -75,7 +75,7 @@ const quizData = [
     question: "If you look at two points in a goods space (like the one below) that both give the same level of utility, points lying on a straight line connecting them PROBABLY:",
     choices: ["Lie on a higher indifference curve than the two points", "Lie on the same indifference curve as the two points", "Lie on a lower indifference curve than the two points"],
     correctAnswer: "b",
-    image: ""
+    image: "/multiple-choice-econ-quiz/"
   },
   
   {
@@ -88,10 +88,10 @@ const quizData = [
   
   {
     questionNumber: 12,
-    question: "The person on the document camera gets utility from homemade pies, which consist of a filling (made of eggs, G) and a crust (C). With the given prices and income, how many eggs will the person buy, if (s)he is maximizing utility?",
+    question: "The person below gets utility from homemade pies, which consist of a filling (made of eggs, G) and a crust (C). With the given prices and income, how many eggs will the person buy, if (s)he is maximizing utility?",
     choices: ["10", "12", "25/3", "120"],
     correctAnswer: "a",
-    image: ""
+    image: "/multiple-choice-econ-quiz/images/unit 1/Utility_Function_3.png"
   },
   
   {
@@ -99,7 +99,7 @@ const quizData = [
     question: "Refer to Problem 3.3 below. How much peanut butter and jelly will David buy with his $3/month allowance (if he maximizes his utiliity)?",
     choices: ["15 oz. jelly; 15 oz. peanut butter.", "15 oz. jelly; 30 oz. peanut butter.", "30 oz. jelly; 60 oz. peanut butter.", "30 oz. jelly; 30 oz. peanut butter."],
     correctAnswer: "a",
-    image: ""
+    image: "/multiple-choice-econ-quiz/"
   },
   
   {
@@ -107,7 +107,7 @@ const quizData = [
     question: "Refer to Problem 3.3 below. Suppose the price of jelly rises to $0.15/oz. By how much would David's allowance have to rise to compensate for the increase in the price of jelly?",
     choices: ["$0.60", "$0.75", "$1.00", "$3.00"],
     correctAnswer: "a",
-    image: ""
+    image: "/multiple-choice-econ-quiz/"
   },
   
   {
@@ -148,7 +148,7 @@ const quizData = [
     question: "According to the Engle Curve graph, above income M 'bar', this good is:",
     choices: ["Normal", "Inferior", "A Luxury"],
     correctAnswer: "a",
-    image: ""
+    image: "/multiple-choice-econ-quiz/images/unit 1/Graph_2.jpg"
   },
   
   {
@@ -156,7 +156,7 @@ const quizData = [
     question: "This goods space ({X, Y}, on below) is showing:",
     choices: ["A price increase for a normal good", "A price decrease for a normal good", "A price increase for an inferior good", "A price decrease for an inferior good"],
     correctAnswer: "a",
-    image: ""
+    image: "/multiple-choice-econ-quiz/images/unit 1/Graph_3.jpg"
   },
   
   {
@@ -164,7 +164,7 @@ const quizData = [
     question: "This goods space ({X, Y}, below) is showing:",
     choices: ["A price increase with one normal and one inferior good.", "A price increase with two normal goods.", "A price increase with two inferior goods", "A price decrease with one normal and one inferior good"],
     correctAnswer: "a",
-    image: ""
+    image: "/multiple-choice-econ-quiz/images/unit 1/Graph_4.jpg"
   }
   
   
