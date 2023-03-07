@@ -99,7 +99,7 @@ const quizData = [
     question: "Refer to Problem 3.3 below. How much peanut butter and jelly will David buy with his $3/month allowance (if he maximizes his utiliity)?",
     choices: ["15 oz. jelly; 15 oz. peanut butter.", "15 oz. jelly; 30 oz. peanut butter.", "30 oz. jelly; 60 oz. peanut butter.", "30 oz. jelly; 30 oz. peanut butter."],
     correctAnswer: "a",
-    image: "/multiple-choice-econ-quiz/"
+    image: "/multiple-choice-econ-quiz/images/unit 1/david_question.png"
   },
   
   {
@@ -107,7 +107,7 @@ const quizData = [
     question: "Refer to Problem 3.3 below. Suppose the price of jelly rises to $0.15/oz. By how much would David's allowance have to rise to compensate for the increase in the price of jelly?",
     choices: ["$0.60", "$0.75", "$1.00", "$3.00"],
     correctAnswer: "a",
-    image: "/multiple-choice-econ-quiz/"
+    image: "/multiple-choice-econ-quiz/images/unit 1/david_question.png"
   },
   
   {
@@ -115,7 +115,7 @@ const quizData = [
     question: "If the prices (P) and David's income (M) were assumed to be variable, what would David's demand function for jelly be? Note: in the following, assume 0<a<1.",
     choices: ["J = (aM)/(P_J)", "J = (aM)/(P_J + 2P_B)", "J = (M)/(P_J + 2P_B)", "J = (aM)/(2P_J + P_B)"],
     correctAnswer: "a",
-    image: ""
+    image: "/multiple-choice-econ-quiz/images/unit 1/david_question.png"
   },
   
   {
@@ -123,7 +123,7 @@ const quizData = [
     question: "The (own) price elasticity of David's demand is -1, the same as with the Cobb-Douglas demand function:",
     choices: ["True", "False"],
     correctAnswer: "a",
-    image: ""
+    image: "/multiple-choice-econ-quiz/images/unit 1/david_question.png"
   },
   
   {
@@ -139,7 +139,7 @@ const quizData = [
     question: "What is the income elasticity of David's demand for Jelly?",
     choices: ["1/(P_J + 2P_B)", "1", "1/3(P_J + 2P_B)", "1/3"],
     correctAnswer: "a",
-    image: ""
+    image: "/multiple-choice-econ-quiz/images/unit 1/david_question.png"
   },
   
   
