@@ -4,6 +4,7 @@ const quizData = [
     question: "Price has 3 functions in a market. Which of the following is NOT among them?",
     choices: ["Ration Demand", "Signal producers to produce more or less of goods.", "Signal the quality of goods to consumers.", "Signal producers to enter or exit markets."],
     correctAnswer: "d",
+    image: ""
   },
   
   {
