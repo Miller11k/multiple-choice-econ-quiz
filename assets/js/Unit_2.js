@@ -44,7 +44,7 @@ questionNumber: 6,
 question: "Refer to the graph. How would you summarize this firm's situation at the points at which q=20 and q=120?",
 choices: ["The firm is maximizing profit at these levels of output.", "The firm is making economic profit at these levels of output.", "The firm is breaking even at these levels of output.", "The firm is making losses at these levels of output."],
 correctAnswer: "c",
-image: "/multiple-choice-econ-quizimages/unit 2/3.8/3.8.23_ Q1.png"
+image: "/multiple-choice-econ-quiz/images/unit 2/3.8/3.8.23_ Q1.png"
 },
   
 {
@@ -52,7 +52,7 @@ questionNumber: 7,
 question: "Refer to the graph: 'Based on the assumptions, the demand for this firm's output is perfectly elastic.'",
 choices: ["True", "False", "", ""],
 correctAnswer: "a",
-image: "/multiple-choice-econ-quizimages/unit 2/3.8/3.8.23_ Q1.png"
+image: "/multiple-choice-econ-quiz/images/unit 2/3.8/3.8.23_ Q1.png"
 },
   
   
