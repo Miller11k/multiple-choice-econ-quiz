@@ -41,8 +41,8 @@ image: "/multiple-choice-econ-quiz/images/unit 2/3.3/3.3_Q3.png"
   
 {
 questionNumber: 6,
-question: "Today's question goes here",
-choices: ["a", "b", "c", "d"],
+question: "Refer to the graph. How would you summarize this firm's situation at the points at which q=20 and q=120?",
+choices: ["The firm is maximizing profit at these levels of output.", "The firm is making economic profit at these levels of output.", "The firm is breaking even at these levels of output.", "The firm is making losses at these levels of output."],
 correctAnswer: "a",
 image: ""
 }
