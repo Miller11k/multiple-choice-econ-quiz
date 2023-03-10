@@ -61,6 +61,14 @@ question: "See the given information below. Profit-maximizing output (q) for thi
 choices: ["29.21 units", "30 units", "33 units", "12 units"],
 correctAnswer: "b",
 image: "/multiple-choice-econ-quiz/images/unit 2/4.10/4.10 Q1.png"
+},
+  
+{
+questionNumber: 9,
+question: "See the given information below (and your answer to the previous question). In the long run in this market, we expect...",
+choices: ["Entry to Occur", "Exit to Occur", "", ""],
+correctAnswer: "a",
+image: "/multiple-choice-econ-quiz/images/unit 2/4.10/4.10 Q1.png"
 }
   
   
