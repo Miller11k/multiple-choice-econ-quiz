@@ -55,6 +55,14 @@ correctAnswer: "a",
 image: "/multiple-choice-econ-quiz/images/unit 2/3.8/3.8.23_ Q1.png"
 },
   
+{
+questionNumber: 8,
+question: "See the given information below. Profit-maximizing output (q) for this firm is: (Hint: the MC for this firm is a perfect square).",
+choices: ["29.21 units", "30 units", "33 units", "12 units"],
+correctAnswer: "b",
+image: "/multiple-choice-econ-quiz/images/unit 2/4.10/4.10 Q1.png"
+}
+  
   
 ];
 
